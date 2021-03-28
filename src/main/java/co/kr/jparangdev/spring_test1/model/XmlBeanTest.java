@@ -4,6 +4,10 @@ public class XmlBeanTest {
     private String name;
     private int value;
 
+    public void init() {
+        System.out.println("XmlBean Test Init!");
+    }
+
     public String getName() {
         return name;
     }
